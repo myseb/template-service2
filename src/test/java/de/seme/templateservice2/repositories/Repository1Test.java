@@ -10,6 +10,11 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
 import de.seme.templateservice2.entities.Entity1;
 
+/**
+ * Test class for {@link Repository1}
+ * @author Sebastian Meyer
+ *
+ */
 @DataJpaTest
 public class Repository1Test {
 	@Autowired
